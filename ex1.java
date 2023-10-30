@@ -13,8 +13,7 @@ public class ex1 {
             return;
         }
 
-        for (int i=0;i<reps;i++){
-            System.out.println(str);
-        }
+        String strNewLine = str+"\n";
+        System.out.println((strNewLine).repeat(reps));
     }
 }
